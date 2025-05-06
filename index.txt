@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wiki Jeux Vidéo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Wiki Jeux Vidéo</h1>
+    <input type="text" id="searchInput" placeholder="Rechercher un jeu...">
+  </header>
+
+  <main id="gameList">
+    <a href="jeux/zelda.html" class="card">
+      <img src="images/zelda.jpg" alt="Zelda">
+      <h2>The Legend of Zelda</h2>
+    </a>
+
+    <a href="jeux/mario.html" class="card">
+      <img src="images/mario.jpg" alt="Mario">
+      <h2>Super Mario Bros</h2>
+    </a>
+
+    <a href="jeux/eldenring.html" class="card">
+      <img src="images/eldenring.jpg" alt="Elden Ring">
+      <h2>Elden Ring</h2>
+    </a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
